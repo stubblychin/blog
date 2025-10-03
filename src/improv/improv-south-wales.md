@@ -22,7 +22,7 @@ Have you seen shows like *Whose Line is it Anyway?*, *Mock the Week*, *Ben Schwa
 
 Why not try improvised theatre and comedy aka **improv**!?
 
-See our latest class dates: EVENTBRITE LINK
+See our latest class dates: [Register for a workshop](https://tinyurl.com/meetlplaylaugh)
 
 
 ## What is Improv?
