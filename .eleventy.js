@@ -11,6 +11,11 @@ module.exports = function(eleventyConfig) {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
     });
 
+    eleventyConfig.addFilter("sortByOrder", (values) => {
+        let vals = [...values];
+        return vals.sort((a, b) => Math.sign(a.data.order - b.data.order));
+    });
+
     // Set custom directories for input, output, includes, and data
     return {
         dir: {

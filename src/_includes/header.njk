@@ -3,9 +3,13 @@
     
     <nav>
         <ul>    
-        {% for page in collections['top-level'] %}
+        {% for page in collections['top-level'] | sortByOrder %}
             <li><a href="{{page.url}}">{{page.data.title}}</a></li>
         {% endfor %}
+
+        <li>
+            <a href="https://tinyurl.com/meetplaylaugh" class="button" target="_blank" rel="noopener">Join an Improv Workshop</a>
+        </li>
         </ul>
     </nav>
 </header>

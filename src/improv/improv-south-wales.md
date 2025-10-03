@@ -2,6 +2,7 @@
 title: Improv South Wales
 description: Improv South Wales is a fledgling attempt to create an Improv community in South Wales, initially based in Carmarthen, Carmarthenshire.
 tags: ['improv', 'top-level', 'wales']
+order: 2
 ---
 
 # Improv South Wales - Meet, Play, Laugh

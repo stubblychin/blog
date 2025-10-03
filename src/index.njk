@@ -4,9 +4,7 @@ description: Personal site of Paul Sermon, Carmarthenshire based comedian, impro
 ---
 
 
-
-<h2>Quick links</h2>
-<h2>Latest Stuff</h2>
+<h2>Latest Ramblings</h2>
 
 <ul>
     {% for post in collections.blog %}
@@ -15,3 +13,16 @@ description: Personal site of Paul Sermon, Carmarthenshire based comedian, impro
         </li>
     {% endfor %}
 </ul>
+
+
+
+{% if collections.articles | length > 0 %}
+<h3>Articles</h3>
+<ul>
+    {% for article in collections.articles %}
+        <li>
+            <a href="{{ article.url }}">{{ article.data.title }}</a>
+        </li>
+    {% endfor %}
+</ul>
+{% endif %}
