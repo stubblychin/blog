@@ -10,7 +10,6 @@
     "build:eleventy": "eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:sass --parallel build:*"
-    "build-ghpages": "npx @11ty/eleventy --pathprefix=/stubblychin.github.io/"
   },
   "keywords": [],
   "author": "Paul Sermon",

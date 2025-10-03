@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #32012f;
+  background: #252525;
   color: #e2dfd0;
   font-family: "Roboto", sans-serif;
 }
@@ -23,7 +23,7 @@ header h1 {
   letter-spacing: -0.04em;
   font-size: 4.4em;
   white-space: nowrap;
-  color: #32012f;
+  color: #252525;
   background: #e2dfd0;
   text-align: center;
   padding-top: 0.4em;
@@ -46,7 +46,7 @@ header nav ul li a {
   font-weight: bold;
 }
 header nav ul li a:hover, header nav ul li a:hover {
-  color: #f97300;
+  color: #d65c5c;
 }
 header nav ul li a::before {
   content: "▶";
@@ -60,10 +60,10 @@ header nav ul li a::before {
   margin: 0 auto;
 }
 .content p a {
-  color: #f97300;
+  color: #d65c5c;
 }
 .content ul a {
-  color: #f97300;
+  color: #d65c5c;
 }
 
 @media (prefers-color-scheme: light) {
