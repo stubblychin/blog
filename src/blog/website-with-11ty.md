@@ -1,7 +1,6 @@
 ---
 layout: layout.njk
 title: Thoughts on making a website with 11ty
-tags: blog
 date: 2025-01-31
 ---
 
