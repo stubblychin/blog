@@ -3,7 +3,7 @@ title: Paul Sermon - Comedy, Improv, and all the other hobbies
 description: Personal site of Paul Sermon, Carmarthenshire based comedian, improviser, and all-round hobbyist.
 ---
 
-
+{% if collections.blog | length > 0 %}
 <h2>Latest Ramblings</h2>
 
 <ul>
@@ -13,7 +13,7 @@ description: Personal site of Paul Sermon, Carmarthenshire based comedian, impro
         </li>
     {% endfor %}
 </ul>
-
+{% endif %}
 
 
 {% if collections.articles | length > 0 %}
